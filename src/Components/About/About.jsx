@@ -6,7 +6,7 @@ import profile_img from '../../assets/profile_img.png'
 
 const About = () => {
   return (
-    <div className="container">
+    <div id="about" className="container">
         <div className="row">
             <div className="col-12">
                 <div className='about '>
@@ -14,11 +14,11 @@ const About = () => {
                     <h1>About me</h1>
                     <img src={theme_pattern} alt="" />
                 </div>
-                <div className="about-section">
-                    <div className="about-left">
+                <div className="about-section row">
+                    <div className="about-left col-6">
                         <img src={profile_img} alt="" />
                     </div>
-                    <div className="about-right">
+                    <div className="about-right col-6">
                         <div className="about-para">
                             <p>A goal-oriented Entry Level Frontend Developer with knowledge of HTML, CSS, JavaScript, React, Angular, and Vue seeking to use technical proficiency and creativity to develop engaging user experiences and advance in a professional career.</p>
                             <p> Looking to leverage effective debugging, code optimization and project collaboration capabilities to produce applications that exceed user expectations.</p>
