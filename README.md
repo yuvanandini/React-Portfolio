@@ -23,3 +23,4 @@ npm install
 Start the development server:
 npm start
 Visit http://localhost:3000 to view the portfolio in the browser.
+visit live at netlify link - https://beautiful-meringue-031869.netlify.app/
